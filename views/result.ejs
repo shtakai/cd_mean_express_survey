@@ -6,5 +6,16 @@
 </head>
 <body>
   result
+  <div>
+    <% if (survey){%>
+    <ul>
+      <li>Name:<%= survey.name %></li>
+      <li>Location:<%= survey.location %></li>
+      <li>Language:<%= survey.language %></li>
+      <li>Comment:<%= survey.comment %></li>
+    </ul>
+    <% } %>
+  </div>
+  <a href="/">Back</a>
 </body>
 </html>

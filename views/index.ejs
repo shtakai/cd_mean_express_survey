@@ -6,5 +6,39 @@
 </head>
 <body>
   index
+  <div>
+    <form action="/survey" method="POST">
+      <div>
+        <label for="name">your name:</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="location">Dojo location:</label>
+        <select id="location" name="location">
+          <option value="Tokyo">Tokyo</option>
+          <option value="Taiwan">Taiwan</option>
+          <option value="Osaka">Osaka</option>
+        </select>
+      </div>
+      <div>
+        <label for="language">Favorite language:</label>
+        <select id="language" name="language">
+          <option value="ada">ada</option>
+          <option value="java">java</option>
+          <option value="c">c</option>
+          <option value="javascript">javascript</option>
+          <option value="python">python</option>
+        </select>
+      </div>
+      <div>
+        <label for="comment">Comment(optional):</label>
+        <textarea id="comment" name="comment" cols="30" rows="10"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Submit">
+      </div>
+
+    </form>
+  </div>
 </body>
 </html>
