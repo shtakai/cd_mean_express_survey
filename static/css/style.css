@@ -1,6 +1,11 @@
 * {
   font-family: 'Press Start 2P', cursive;
 }
+.message {
+  background-color: lightgreen;
+  color: black;
+  border-style: 1px solid black;
+}
 
 /*! normalize.css v4.2.0 | MIT License | github.com/necolas/normalize.css */
 
