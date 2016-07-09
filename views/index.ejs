@@ -5,15 +5,17 @@
 
   <link href='https://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
   <script src="/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="/bower_components/socket.io/lib/client.js"></script>
+  <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
   <script src="/js/main.js"></script>
   <link rel="stylesheet" href="/css/style.css">
   <title></title>
 </head>
 <body>
-  index
+  <h1>Dojo Survey</h1>
+  <div class="message">
+  </div>
   <div>
-    <form action="/survey">
+    <form>
       <div>
         <label for="name">your name:</label>
         <input type="text" id="name" name="name">
@@ -41,7 +43,7 @@
         <textarea id="comment" name="comment" cols="30" rows="10"></textarea>
       </div>
       <div>
-        <input type="submit" value="Submit">
+        <button>Submit</button>
       </div>
 
     </form>
